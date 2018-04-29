@@ -18,8 +18,9 @@ defined. If you are confused by this instruction, please review L4 Problems
 longest = s[0]
 current = s[0]
 count = 0
-for i in range(len(s)-1):
-    if s[i+1] >= current[-1]:
+for i in range(len(s)-1): 
+# you can replace current[-1] with s[i], it still works
+    if s[i+1] >= current[-1]: 
         current += s[i+1]
         if len(current) > len(longest):
             longest = current
