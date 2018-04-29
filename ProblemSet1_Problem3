@@ -15,6 +15,9 @@ defined. If you are confused by this instruction, please review L4 Problems
 10 and 11 before you begin this problem set.
 '''
 
+'''
+This program only works when all the characters are in lowercases
+'''
 longest = s[0]
 current = s[0]
 count = 0
