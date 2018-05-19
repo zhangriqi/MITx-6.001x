@@ -1,5 +1,10 @@
-#Convert a decimal fraction number into binary form
-# e.g. x = 0.375 -> 0.375*(2**3) = 3 -> 11 -> 0011 -> 0.011
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May  3 14:32:56 2018
+
+@author: zhangruiqi
+"""
 
 x = float(input("Enter a decimal number between 0 and 1:"))
 

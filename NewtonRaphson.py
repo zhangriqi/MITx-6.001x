@@ -1,5 +1,10 @@
-# Use g-p(g)/p'(g) to quickly find the solution to any equation
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May  3 16:43:53 2018
 
+@author: zhangruiqi
+"""
 epsilon = 0.01
 y = 24.0
 guess = y/2.0
